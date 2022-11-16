@@ -1,0 +1,40 @@
+povezati front end sa back endom 1h al u kurcu sat vremena
+popraviti error kod dodavajna timova sa parovima +INFINITY time
+hostati citavu app 2h 
+
+Front end
+    popraviti addTeams i conenct teams na settingsu
+    staviti kad bude ne rješeno
+
+Tabela 1 user_
+    id
+    name
+    score 
+    additonal_score
+
+Tabela 3 team
+    name
+    id
+
+Tabela 4 User_teams
+    id
+    user_id
+    team_id
+
+Tabela 5 Scores
+    id
+    first_team_id
+    second_team_id
+
+kad se popini tabela score onda vidim da li je tim jedan ili tim 2 dobio score
+uzmem id i pogledam tablelu user_teams -> user_id i pogledam koji user je vlasnik tima
+imam ko je vlasnik
+
+BUgovi promijenio si ime entitija ako ti bude davao error moze biti to
+Napravi callove za dodavnje
+napravi komponentu za main page i onComponent di mount da postavi preko propova id i vrati timove
+
+
+Napraviti da onaj početni page radi
+Kad izbrišem da refresha matches
+Kad pair izbrišem score od usera se briše
